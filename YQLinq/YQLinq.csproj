@@ -37,10 +37,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="YQLinqQueryProvider.cs" />
+    <Compile Include="YQueryable.cs" />
+    <Compile Include="YQueryExecutor.cs" />
+    <Compile Include="ISession.cs" />
+    <Compile Include="YqlQueryGeneration\YqlGeneratorQueryModelVisitor.cs" />
+    <Compile Include="YqlQueryGeneration\CommandData.cs" />
+    <Compile Include="YQueryFactory.cs" />
+    <Compile Include="YqlQueryGeneration\QueryPartsAggregator.cs" />
+    <Compile Include="YqlQueryGeneration\IListExtensions.cs" />
+    <Compile Include="YqlQueryGeneration\ParameterAggregator.cs" />
+    <Compile Include="YqlQueryGeneration\NamedParameter.cs" />
+    <Compile Include="YqlQueryGeneration\YqlGeneratorExpressionTreeVisitor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="YqlQueryGeneration\" />
   </ItemGroup>
 </Project>

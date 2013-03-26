@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="YQLinq/YQLinqQueryProvider.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="YQLinq/YqlQueryGeneration/YqlGeneratorExpressionTreeVisitor.cs">
     <Files>
-      <File FileName="YQLinq/YQLinqQueryProvider.cs" Line="21" Column="1" />
+      <File FileName="YQLinq/YqlQueryGeneration/YqlGeneratorExpressionTreeVisitor.cs" Line="10" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
